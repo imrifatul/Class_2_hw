@@ -1,0 +1,171 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Saira', sans-serif;
+    color: #282828;
+    background-color: #f3f0eb;
+}
+
+.headline{
+    background-color: #282828;
+    padding: 10px;
+}
+
+.container{
+    width: 1400px;
+    margin: auto;
+}
+
+.headline p{
+    color: #c3b481;
+    text-align: center;
+    padding: 14px;
+    font-size: 24px;
+}
+
+.headline p strong{
+    margin-right: 10px;
+}
+
+.about-us-section{}
+
+.about-content{
+    padding: 50px 220px;
+    text-align: center;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.line{
+    width: 400px;
+    display: block;
+    height: 3px;
+    background: #c3954b;
+    margin: 10px auto;
+}
+
+p{
+    font-size: 20px;
+    padding: 50px 15px;
+}
+
+img{
+    max-width: 100%;
+}
+
+.feature-heading{
+    padding: 100px;
+}
+.feature-heading h2{
+
+font-size: 24px;
+
+font-weight: 400;
+
+width: 150px;
+}
+.feature-section{}
+
+.col-50{
+    flex-basis: 50%;
+    padding: 15px;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.galary-class{
+    padding-bottom: 50px;
+}
+
+.galary-content{
+    padding: 78px 25px;
+    background-color: #282828;
+}
+
+.galary-content h3{
+    color: #a56a28;
+    font-size: 30px;
+}
+
+.galary-content p{
+    color: #fff;
+    font-size: 15px;
+}
+
+.galary-content a{
+    color: #a56a28;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.mission-section{}
+
+.headline-2{
+    background-color: #282828;
+}
+
+.headline-2 h4{
+    color: #c3b481;
+    font-size: 30px;
+    text-align: center;
+    padding: 80px 0;
+    font-weight: 400;
+    width: 800px;
+    margin: auto;
+}
+
+.product-section{
+    padding: 80px 0;
+    background-color: white;
+}
+
+.heading{}
+
+.heading h2{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 400;
+    margin: 20px 0;
+}
+
+.col-33{
+    flex-basis: 33.33%;
+    padding: 15px;
+}
+
+.product-box{
+    background-color: #f3f0eb;
+    padding: 10px 2px;
+}
+.product-box a{
+    text-decoration: none;
+    text-align: center;
+    color: #282828;
+}
+.product-box img{
+}
+.product-box h3{color: #282828;}
+.product-box h4{
+    text-align: center;
+    color: darkred;
+}
+
+.review{
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+}
+.review img{
+    width: 20px;
+}
